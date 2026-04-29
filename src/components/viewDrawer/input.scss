@@ -1,0 +1,43 @@
+.vue-tel-input {
+  border-color: #4c4256;
+
+  &:focus-within {
+    box-shadow: none;
+  }
+
+  input {
+    background-color: transparent;
+
+    &::placeholder {
+      font-size: inherit;
+    }
+  }
+}
+
+.vti__flag {
+  display: none;
+}
+
+.vti__dropdown {
+  outline: none;
+}
+
+.vti__dropdown:hover,
+.vti__dropdown.disabled,
+.vti__dropdown.open {
+  background: transparent;
+}
+
+.vti__selection .vti__country-code,
+.vti__selection .vti__dropdown-arrow {
+  font-size: 1rem;
+}
+
+.vti__dropdown-item {
+  color: #afa0be;
+}
+.vti__dropdown-list {
+  width: auto;
+  white-space: nowrap;
+  left: -10px;
+}
