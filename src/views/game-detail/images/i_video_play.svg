@@ -1,0 +1,7 @@
+<svg id="i_video_play" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <rect id="bg28x28" width="28" height="28" fill="#fff" opacity="0"/>
+  <g id="i_video_play-2" data-name="i_video_play" transform="translate(-1541.197 -1194.135)">
+    <path id="li01" d="M1555.2,1221.136a13,13,0,1,1,13-13A13.015,13.015,0,0,1,1555.2,1221.136Zm0-24.189a11.189,11.189,0,1,0,11.189,11.189A11.2,11.2,0,0,0,1555.2,1196.947Z" transform="translate(0)" fill="#fff"/>
+    <path id="t01" d="M1552.491,1204.8v8.2a1.515,1.515,0,0,0,2.357,1.259l6.132-4.1a1.515,1.515,0,0,0,0-2.518l-6.132-4.1A1.515,1.515,0,0,0,1552.491,1204.8Z" transform="translate(-0.969 -0.768)" fill="#fff"/>
+  </g>
+</svg>
