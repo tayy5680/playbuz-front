@@ -1,0 +1,7 @@
+<svg id="i_system_info_note" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <rect id="bg56x56" width="60" height="60" fill="#afa0be" opacity="0"/>
+  <g id="i_system_info" transform="translate(3.214 3.214)">
+    <path id="li02" d="M26.786,53.571A26.786,26.786,0,1,1,53.571,26.786,26.786,26.786,0,0,1,26.786,53.571Zm0-50.223A23.438,23.438,0,1,0,50.223,26.786,23.438,23.438,0,0,0,26.786,3.348Z" transform="translate(0 0)" fill="#afa0be"/>
+    <path id="li01" d="M20.717,31.234,19.56,10h5.929L24.272,31.2ZM19.56,39.221V34.229h5.929v4.992Z" transform="translate(4.255 2.175)" fill="#afa0be"/>
+  </g>
+</svg>
