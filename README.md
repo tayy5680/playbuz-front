@@ -1,4 +1,4 @@
-# GPG Front
+# PlayBUZ Front
 
 ## node version support
 
