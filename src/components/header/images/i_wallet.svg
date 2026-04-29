@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="组_8273" data-name="组 8273" transform="translate(1307 57) rotate(180)">
+    <g id="椭圆_207" data-name="椭圆 207" transform="translate(1281 31)" fill="none" stroke="#fff" stroke-width="1">
+      <circle cx="13" cy="13" r="13" stroke="none"/>
+      <circle cx="13" cy="13" r="12.5" fill="none"/>
+    </g>
+    <g id="i_arrow_d" transform="translate(1300.001 46.999) rotate(180)">
+      <g id="i_arr_d">
+        <path id="i_arr_d-2" data-name="i_arr_d" d="M0,5.167V3.423L6,6.256l6-2.834V5.167L6,8ZM0,1.133V0L6,2.834,12,0V1.133L6,3.966Z" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
