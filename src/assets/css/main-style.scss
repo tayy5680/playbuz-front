@@ -1,0 +1,1269 @@
+.main-style-white {
+  color: #707070;
+  --el-color-primary: #7c7ed7;
+  --el-color-primary-light-1: #8889e2;
+  --el-color-primary-light-2: #9294e4;
+  --el-color-primary-light-3: #b8b9f1;
+  --el-color-primary-light-4: #d3d4f5;
+  --el-color-primary-light-5: #dfdff9;
+  --el-color-primary-light-6: #cacad8;
+  --el-color-primary-light-7: #f6f6fe;
+  --el-color-primary-light-8: #f2f2fa;
+  --el-color-primary-light-9: #dedede;
+
+  // 背景底色
+  .app-bg {
+    background-color: #f6f6f6;
+
+    > div {
+      background-size: contain;
+      background-position-y: bottom;
+      background-position-x: left;
+    }
+  }
+
+  // 轉移介面
+  .wallet__wrap {
+    .wallet__container {
+      background-color: white;
+      .text-\[\#ffd500\] {
+        color: #ffb700;
+      }
+      .wallet__top {
+        background-color: #7c7ed7;
+        .swiper-slide.menu__item {
+          color: white;
+          &.action {
+            font-weight: bold;
+          }
+        }
+        .icon {
+          background-color: white;
+        }
+        .wallet__question {
+          .pop__wrap {
+            box-shadow: 0px 9px 8px #00000066;
+            border-radius: 10px;
+            .pop__container {
+              color: black;
+            }
+          }
+        }
+      }
+
+      .wallet__main {
+        .wallet-data__wrap {
+          border-right: 1px solid #776e81;
+          .wallet-data__main__label {
+            color: #a6a6bd;
+          }
+          .wallet-data-all__back {
+            color: black;
+            background-color: #ffd500;
+          }
+          .wallet-data__game {
+            .wallet-data__game__item {
+              border-bottom: 1px dashed #707070;
+              .wallet-data__game__label {
+                color: #5d6d8b;
+                padding-left: 15px;
+              }
+              .wallet-data__game__count {
+                color: #7c7ed7;
+              }
+            }
+          }
+        }
+        .wallet-action__wrap {
+          .wallet-action__move {
+            filter: invert(54%) sepia(35%) saturate(971%) hue-rotate(201deg) brightness(91%) contrast(83%);
+          }
+
+          .wallet-action__tips {
+            color: #8d8da9;
+            .select__wrap {
+              .switch__display {
+                background: white;
+                border-color: #707070;
+              }
+              .select__list {
+                background-color: #efefef;
+                box-shadow: 0 4px 5px #00000087;
+                border-radius: 10px;
+                .switch__tips {
+                  color: #a6a6bd;
+                }
+                .switch__item {
+                  color: #8d8da9;
+
+                  &.text-\[\#ffd500\] {
+                    background-color: white;
+                    color: #ffd500;
+                    box-shadow: 0 4px 5px #00000036;
+                  }
+                  &:hover,
+                  &.bg-\[\#26252A\] {
+                    background-color: white;
+                  }
+                }
+              }
+            }
+          }
+          .wallet-sample__wrap {
+            border-color: #707070;
+          }
+          .wallet-action__container > .select__wrap {
+            .switch__display {
+              background-color: #efefef;
+              .select__label {
+                filter: invert(61%) sepia(10%) saturate(694%) hue-rotate(202deg) brightness(92%) contrast(87%);
+              }
+            }
+            .select__list {
+              background-color: #efefef;
+              box-shadow: 0 4px 5px #00000087;
+              border-radius: 10px;
+              .switch__tips {
+                color: #a6a6bd;
+              }
+              .switch__item {
+                color: #8d8da9;
+
+                &:hover,
+                &.bg-\[\#26252A\] {
+                  background-color: white;
+                }
+              }
+            }
+          }
+          .wallet-action__bottom {
+            .bg-purpleLine {
+              color: #877b94;
+              background-color: #d3d5e0;
+            }
+            .bg-depositBtnBg {
+              background-image: linear-gradient(90deg, #a350f1 0%, #22b8ef 100%);
+            }
+          }
+
+          .wallet__count {
+            background-color: #efefef;
+            border-color: #7c7ed7;
+            input {
+              color: #7c7ed7;
+              &::placeholder {
+                color: #a6a6bd;
+              }
+              &:focus,
+              &:focus-visible {
+                outline: none;
+                box-shadow: none;
+              }
+            }
+            .wallet__close {
+              filter: invert(60%) sepia(15%) saturate(3831%) hue-rotate(206deg) brightness(87%) contrast(94%);
+            }
+          }
+          .wallet-sample__wrap {
+            .wallet-sample__item {
+              &.bg-\[\#302E33\] {
+                background-color: #f2f2f4;
+                color: #a8a8c4;
+              }
+              &.bg-switchMobileBg {
+                background-color: #7c7ed7;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // 排行榜
+  .rank__container {
+    .game__wrap {
+      background-color: #edf0f4;
+      box-shadow: 0 1px 8px #00000036;
+
+      .game__sub__header {
+        padding: 0 20px 0 30px;
+
+        .filter-type {
+          display: inline-flex;
+          border: 1px solid #5d6d8b;
+          border-radius: 6px;
+          overflow: hidden;
+          height: 34px;
+
+          button {
+            flex: 1;
+            padding: 0 16px;
+            border: none;
+            background: transparent;
+            color: #4a5c75;
+            font-size: 16px;
+            cursor: pointer;
+            border-right: 1px solid #5d6d8b;
+
+            &:last-child {
+              border-right: none;
+            }
+
+            &.active {
+              background-color: #5d6d8b;
+              color: #fff;
+            }
+          }
+        }
+      }
+
+      .game__top__bg {
+        &.web {
+          background-image: url('../img/cssStyleWhite/rank/rank_bg_pc.png') !important;
+        }
+
+        &.mobile {
+          background-image: url('../img/cssStyleWhite/rank/rank_bg_mo.png') !important;
+        }
+      }
+
+      .rank__member__index {
+        color: #5d6d8b;
+      }
+
+      .game__top__member {
+        .top-1 {
+          background-color: #988747;
+          border-color: #ecd98f;
+
+          .i_crown {
+            filter: invert(57%) sepia(19%) saturate(998%) hue-rotate(10deg) brightness(89%) contrast(85%) !important;
+          }
+
+          .info__user-pic::before {
+            content: '';
+            background: linear-gradient(#ecd98f, #6d6542);
+            width: calc(100% + 10px);
+            display: block;
+            position: relative;
+            left: -5px;
+            height: calc(100% + 10px);
+            z-index: -1;
+            top: -5px;
+            border-radius: 50%;
+          }
+        }
+
+        .top-2 {
+          background-color: #bdc4cf;
+          border: 1px solid white;
+
+          .user__ranking > span {
+            color: white;
+          }
+        }
+
+        .top-3 {
+          background-color: #584130;
+          border: 1px solid #7e5231;
+
+          .user__ranking > span {
+            color: #a46333;
+          }
+        }
+      }
+
+      .rank__member__container {
+        .rank__member__name,
+        .rank__member__point {
+          color: #5d6d8b;
+
+          img {
+            filter: invert(42%) sepia(9%) saturate(1371%) hue-rotate(181deg) brightness(97%) contrast(91%) !important;
+          }
+        }
+
+        .rank__member__follow > button {
+          background-color: #ff2d55;
+        }
+
+        .top-1 {
+          .rank__member__index,
+          .rank__member__point {
+            filter: invert(53%) sepia(73%) saturate(286%) hue-rotate(10deg) brightness(87%) contrast(87%) !important;
+          }
+        }
+
+        .top-2 {
+          .rank__member__index,
+          .rank__member__point {
+            filter: invert(80%) sepia(63%) saturate(5783%) hue-rotate(200deg) brightness(119%) contrast(105%) !important;
+          }
+        }
+
+        .top-3 {
+          .rank__member__index,
+          .rank__member__point {
+            filter: invert(44%) sepia(47%) saturate(583%) hue-rotate(343deg) brightness(89%) contrast(96%) !important;
+          }
+        }
+      }
+
+      .game__update__time {
+        color: #c479ff;
+      }
+    }
+
+    .rank__member__group {
+      &.user-other,
+      &.user-order {
+        background: #5d6d8b;
+        .rank__member__index div,
+        .rank__member__item div {
+          color: white;
+        }
+      }
+    }
+  }
+
+  // 門市據點
+  .store__wrap {
+    .store_list {
+      color: #707070;
+    }
+
+    .swiper-slide {
+      .game__sort__item {
+        background-color: white;
+        color: #707070;
+
+        &.active,
+        &:hover {
+          background-color: #7c7ed7;
+          color: white;
+        }
+      }
+    }
+    .store_none.bg-\[\#28252b\] {
+      background: #fdfdfd;
+      box-shadow: 0px 1px 3px #0000001a;
+      .store_none_img {
+        background-image: url('../img/cssStyleWhite/icon/i_system_note.svg') !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        img {
+          opacity: 0;
+        }
+      }
+      .store_none_text {
+        color: #5d6d8b;
+      }
+    }
+  }
+
+  // 首頁
+  .home__wrap {
+    .latest__title,
+    .hot__title {
+      color: #707070;
+    }
+    .hot__wrap {
+      .game__short__text {
+        color: #1c1d28b2;
+      }
+    }
+  }
+
+  // 聊天室
+  .chatRoom__wrap {
+    background-color: white;
+    .chatRoom__header .close {
+      filter: invert(48%) sepia(49%) saturate(8%) hue-rotate(330deg) brightness(82%) contrast(93%);
+    }
+
+    .chatRoom__container {
+      .chat-menu__wrap {
+        .menu__item {
+          color: #707070;
+
+          &.action {
+            color: #7c7ed7;
+          }
+        }
+        .menu__line {
+          background-color: #7c7ed7;
+        }
+      }
+
+      .chat-list__count {
+        color: #707070;
+      }
+
+      .chat-info__wrap {
+        background-color: #ffffff;
+        .chat-info__label,
+        .chat-info__btn {
+          filter: invert(44%) sepia(0%) saturate(259%) hue-rotate(146deg) brightness(96%) contrast(90%);
+        }
+      }
+
+      .chat-search__wrap {
+        .chat-search__input {
+          background-color: #f2f2f4;
+          .chat-search__icon {
+            background-color: #a8a8c4;
+          }
+          .chat-search__input {
+            color: #707070;
+            &::placeholder {
+              color: #a8a8c4;
+            }
+          }
+        }
+      }
+
+      .chat-list__container {
+        .chat-list__line {
+          background-color: #d5d6d9;
+        }
+        .refer__label {
+          color: #707070;
+        }
+      }
+
+      .chat-aside__wrap {
+        .chat-aside__list {
+          .chat-aside__item {
+            .chat-aside__bg {
+              background-color: #707070;
+            }
+            .chat-aside__label {
+              color: #707070;
+            }
+            &:last-child {
+              .chat-aside__bg {
+                background-color: #c1c1d9;
+              }
+              .chat-aside__label {
+                color: #c1c1d9;
+              }
+            }
+          }
+        }
+      }
+
+      .chat-message__wrap {
+        background: white;
+
+        .chat-message__bottom {
+          background: white;
+          .chat-message__send {
+            background-color: #dcdee2;
+
+            input {
+              color: #707070;
+              &::placeholder {
+                color: #a7adba;
+              }
+            }
+            .el-loading-mask {
+              background-color: #ffffffa8;
+            }
+          }
+        }
+      }
+
+      .refer-pop__wrap {
+        .refer-pop__container {
+          background-color: white;
+          .refer__picture {
+            border-radius: 50%;
+          }
+          .refer__label {
+            color: #707070;
+          }
+          .refer__button__wrap {
+            .bg-depositBtn {
+              background-image: linear-gradient(to bottom, #a136e8, #6100c2);
+            }
+            .bg-centerGridDisabled {
+              background-color: #a8a8c4;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // 轉移紀錄
+  .record__wrap .record__window {
+    background-color: white;
+    .record__close {
+      filter: invert(43%) sepia(3%) saturate(27%) hue-rotate(344deg) brightness(100%) contrast(86%);
+    }
+    > h3 {
+      color: #707070;
+    }
+    .filter__block {
+      label {
+        color: #707070;
+      }
+      .el-input {
+        .el-input__inner {
+          background: rgb(166 166 189);
+        }
+      }
+
+      .arrow_right {
+        opacity: 0.5;
+      }
+      button.bg-recordSearchBtn {
+        background-image: linear-gradient(#6e4ef2, #20f3cf);
+        img {
+          filter: invert(1);
+        }
+      }
+    }
+    .btn-switch-filter-block {
+      background-color: #7c7ed7;
+    }
+    .record__table {
+      .el-table__header-wrapper th div {
+        background: rgb(211 213 224);
+        color: #707070;
+        font-weight: bold;
+        font-size: 13px;
+      }
+      .el-table__body-wrapper td {
+        color: #707070;
+
+        .text-lightYellow {
+          color: #988747;
+        }
+        .text-recordTableSilver {
+          color: #7c7ed7;
+        }
+
+        .border-lakeGreen.text-lakeGreen {
+          border-color: #a759ff;
+          color: #a759ff;
+        }
+      }
+    }
+    .page-btn {
+      button {
+        opacity: 0.3;
+      }
+      p {
+        color: #707070;
+      }
+    }
+  }
+
+  // 日曆UI
+  .el-picker__popper.date__range__box {
+    background: white !important;
+    .el-picker-panel {
+      background-color: white !important;
+      color: #5a6b8d;
+      .el-date-picker__header {
+        button,
+        span {
+          color: #7c7ed7;
+        }
+      }
+      .el-picker-panel__content {
+        th {
+          color: #7c7ed7;
+          border-bottom: 1px solid #7c7ed7;
+        }
+        td.disabled div {
+          background: #a6a6bd;
+          color: #ddddf9;
+        }
+        .next-month div {
+          color: #5a6b8d;
+        }
+        td.available.current span,
+        td.available:hover span {
+          color: white;
+          background: #7c7ed7;
+        }
+        .el-year-table {
+          td.today,
+          td.available:hover {
+            a {
+              color: #7c7ed7;
+            }
+          }
+        }
+        .el-month-table {
+          td a {
+            color: #5a6b8d;
+          }
+          td.today,
+          td:hover {
+            a {
+              color: #7c7ed7;
+            }
+          }
+          td.disabled div {
+            background: #a6a6bd;
+            a {
+              color: #ddddf9;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // 會員頁下半
+  .exclusive__wrap {
+    .exclusive__title,
+    .exclusive-mine__label > div {
+      color: #707070;
+    }
+    .bg-popupBg {
+      background: #fdfdfd;
+      box-shadow: 0px 3px 3px #0000001a;
+    }
+    .exclusive-nav__item {
+      .exclusive-nav__img .bg-\[\#B164FF\] {
+        background-color: #7c7ed7;
+      }
+      .exclusive-nav__label {
+        color: #7c7ed7;
+      }
+    }
+    .exclusive-nav__img .bg-\[\#51455E\],
+    .exclusive-nav__label.text-\[\#51455E\] {
+      opacity: 0.3;
+    }
+  }
+
+  // 會員中心 > 會員資料
+  .edit__wrap {
+    .path__list.text-lakeGreen {
+      color: #7c7ed7;
+    }
+    .edit__item {
+      background: #fdfdfd;
+      box-shadow: 0px 3px 3px #0000001a;
+      .edit__icon {
+        width: 35px;
+        filter: invert(74%) sepia(13%) saturate(927%) hue-rotate(200deg) brightness(94%) contrast(107%);
+      }
+      .edit__label {
+        .edit__title {
+          color: #7c7ed7;
+        }
+        .edit__sub {
+          color: #707070;
+        }
+      }
+      .edit__action {
+        .edit__button {
+          color: #c479ff;
+          border-color: #c479ff;
+          &:hover {
+            background-color: #c479ff;
+            color: white;
+          }
+          &.border-violet {
+            color: #7c7ed7;
+            border-color: #7c7ed7;
+            &:hover {
+              background-color: #7c7ed7;
+              color: white;
+            }
+          }
+        }
+        .edit__message {
+          .icon {
+            filter: invert(66%) sepia(88%) saturate(3864%) hue-rotate(229deg) brightness(103%) contrast(104%) !important;
+          }
+          .text-\[\#00DFB9\] {
+            color: #c479ff;
+          }
+        }
+      }
+    }
+  }
+
+  // 會員中心 > 訂單
+  .record__wrap {
+    .path__wrap {
+      .path__tips {
+        color: #9d9d9d;
+      }
+      .path__list {
+        color: #7c7ed7;
+      }
+    }
+    .switch__container {
+      .game__sort__item {
+        color: white;
+        background-color: #d3d5e0;
+        &:hover,
+        &.active {
+          color: white;
+          background-color: #7c7ed7;
+        }
+      }
+    }
+    .order__container {
+      table tr td:last-child {
+        color: #7c7ed7;
+      }
+    }
+
+    // 贈禮紀錄
+    .present__container {
+      .text-lightYellow,
+      .text-violet {
+        font-weight: bold;
+      }
+    }
+    .record__container {
+      .el-table__header-wrapper th {
+        background: transparent;
+        .cell {
+          background-color: #ecedf4;
+          color: #707070;
+          text-align: center;
+        }
+      }
+      .el-table__body-wrapper {
+        color: #707070;
+        .text-lightYellow {
+          color: #aa8800;
+        }
+        .text-white {
+          color: #707070;
+        }
+        .text-lakeGreen {
+          color: #c479ff;
+        }
+        .bg-lakeGreen {
+          background-color: #c479ff;
+        }
+        .bg-ordernoBtn.text-white {
+          color: white;
+          background-image: linear-gradient(-45deg, #ff4060, #6e4ef2);
+        }
+      }
+    }
+  }
+
+  // 商城付款mul-pay-pop__wrap
+  #pop-view__teleport {
+    .tips {
+      border-top: 1px dashed #8492aa;
+      margin-top: 25px;
+      padding-top: 20px;
+      color: #a759ff;
+    }
+    .deposit-switch__wrap {
+      border-color: #8492aa;
+      .swiper-slide {
+        .items-area {
+          opacity: 1;
+          width: 100%;
+        }
+
+        .label {
+          color: #8492aa;
+          border-right: 1px solid #8492aa;
+        }
+        &.active {
+          .label {
+            transition: all 0.2s ease;
+            color: #7c7ed7;
+          }
+        }
+
+        &:last-child {
+          .label {
+            border-right: 0;
+          }
+        }
+      }
+    }
+    .deposit-mul-pay-pop__title {
+      background-color: #7c7ed7;
+    }
+    .deposit-total__container {
+      .deposit-total__item {
+        .deposit-total__label {
+          color: #5d6d8b;
+        }
+        .deposit-total__less {
+          background-color: #8492aa;
+        }
+        .deposit-total__add {
+          background-color: #7c7ed7;
+        }
+        .deposit-total__final {
+          color: #a759ff;
+        }
+      }
+    }
+    .deposit-email-input,
+    .view-credit-card {
+      color: #8492aa;
+      font-size: 14px;
+      input {
+        background-color: #efefef;
+        border-color: #8492aa;
+        color: #7c7ed7;
+        outline: none;
+        &::placeholder {
+          color: #8492aa;
+        }
+        &:focus,
+        &:focus-visible {
+          border-color: #a759ff;
+        }
+      }
+      .email-tips {
+        color: #7c7ed7;
+      }
+      .mul-pay-pop__user__mail__checkbox {
+        color: #7c7ed7;
+      }
+    }
+    #mulpay-cardNumber,
+    #mulpay-expiry,
+    #mulpay-cvc {
+      background-color: #efefef;
+      border-color: #8492aa;
+      color: #7c7ed7;
+
+      &:focus,
+      &:focus-visible {
+        border-color: #a759ff;
+      }
+    }
+  }
+
+  // 商城付款gpg
+  #pop-view__teleport .deposit-pop__wrap {
+    .deposit-pop__container {
+      background-color: white;
+      .close__icon {
+        filter: invert(43%) sepia(3%) saturate(27%) hue-rotate(344deg) brightness(100%) contrast(86%);
+      }
+
+      .deposit-switch__wrap {
+        .swiper-slide {
+          transition: all 0.2s ease;
+          .label {
+            color: #a6a6bd;
+          }
+          .icon-bg {
+            background-color: #a6a6bd;
+          }
+          &.text-white {
+            .label {
+              color: #707070;
+            }
+            .icon-bg {
+              background-color: #707070;
+            }
+          }
+        }
+      }
+      .deposit-pop__title {
+        background-color: #7c7ed7;
+        .amount__group__coin {
+          .silver {
+            background-repeat: no-repeat;
+            background-position: left;
+            background-image: url('../img/cssStyleWhite/icon/i_money_s.png');
+            img {
+              opacity: 0;
+            }
+          }
+        }
+      }
+      .deposit__data {
+        .deposit-total__container {
+          .deposit-total__label {
+            color: #5d6d8b;
+          }
+          .deposit-total__count {
+            .deposit-total__less {
+              background-color: #8492aa;
+            }
+            .deposit-total__add {
+              background-color: #7c7ed7;
+            }
+          }
+          .deposit-total__final {
+            color: #a759ff;
+          }
+        }
+        .deposit__title,
+        .tips {
+          color: #a759ff;
+        }
+        .deposit__mail {
+          .label {
+            color: #7c7ed7;
+          }
+          input {
+            background-color: #efefef;
+            color: #7c7ed7;
+            border-color: #acacc1;
+            &::placeholder {
+              color: #a6a6bd;
+            }
+            &.border-red-600 {
+              border-color: rgba(220, 38, 38);
+            }
+          }
+        }
+        .deposit__list {
+          border-color: #a759ff;
+
+          .deposit__item {
+            color: #5d6d8b;
+            &.text-white,
+            &.device-0 {
+              color: #7c7ed7;
+              .label {
+                color: #7c7ed7;
+              }
+              .icon {
+                background-image: url('../img/cssStyleWhite/icon/i_tick2_act.svg');
+                background-repeat: no-repeat;
+                img {
+                  opacity: 0;
+                }
+              }
+            }
+          }
+          div.input {
+            background-color: #efefef;
+            color: #7c7ed7;
+            border-color: #acacc1;
+            input {
+              color: #7c7ed7;
+              &::placeholder {
+                color: #a6a6bd;
+              }
+            }
+            &.border-red-600 {
+              border-color: rgba(220, 38, 38);
+            }
+          }
+          input.input {
+            background-color: #efefef;
+            color: #7c7ed7;
+            border-color: #acacc1;
+            border-color: skyblue;
+            &::placeholder {
+              color: #a6a6bd;
+            }
+            &.border-red-600 {
+              border-color: rgba(220, 38, 38);
+            }
+          }
+          input {
+            &:focus,
+            &:focus-visible {
+              outline: none;
+              box-shadow: none;
+            }
+          }
+        }
+        .deposit-uniform__container {
+          .icon {
+            background-image: url('../img/cssStyleWhite/icon/i_tick2_act.svg');
+            background-repeat: no-repeat;
+            img {
+              opacity: 0;
+            }
+          }
+          .label.text-white {
+            color: #7c7ed7;
+          }
+          input {
+            background-color: #efefef;
+            color: #7c7ed7;
+            border-color: #acacc1;
+            &::placeholder {
+              color: #a6a6bd;
+            }
+            &.border-red-600 {
+              border-color: rgba(220, 38, 38);
+            }
+          }
+        }
+        > .btn {
+          background-image: linear-gradient(90deg, #a350f1, #22b8ef);
+        }
+      }
+    }
+  }
+
+  // 通知 useNotice
+  .el-message {
+    &.el-message--success,
+    &.el-message--info {
+      background-color: #7c7ed7;
+    }
+
+    &.el-message--error {
+      background-color: #d61a5a;
+      border: 0;
+      box-shadow: 0 0 12px #0006;
+    }
+  }
+
+  // 序號
+  .deposit__wrap {
+    .serial__wrap {
+      background-image: url('../img/cssStyleWhite/deposit/pc_store_codebg.svg') !important;
+
+      .serial__container {
+        .serial__title {
+          color: #707070;
+        }
+        .serial__tips {
+          color: #7c7ed7;
+        }
+        button {
+          background-image: linear-gradient(to bottom, #b636ff 0%, #362bd2 100%);
+          text-decoration: none;
+        }
+        .serial__input {
+          background-color: white;
+          border-radius: 5px;
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  // pop-up
+  .popup__wrap {
+    .popup__container {
+      background-color: white;
+      color: #5d5d65;
+    }
+
+    // 禮物的按鈕
+    .btn-present > div {
+      background-color: #d3d5e0;
+      color: #707070;
+      &:first-child {
+        color: white;
+        background: linear-gradient(#362bd2, #b636ff);
+      }
+    }
+  }
+
+  // pop-view
+  .pop-view__wrap {
+    .pop-view__container {
+      background-color: white;
+
+      .pop-view__top {
+        .gift__close {
+          filter: invert(43%) sepia(1%) saturate(1888%) hue-rotate(6deg) brightness(98%) contrast(78%);
+        }
+        .wallet__warp {
+          background-color: white;
+          .text-\[\#ffd500\] {
+            color: #ffb700;
+          }
+          .text-\[\#fff\] {
+            color: #707070;
+          }
+        }
+      }
+      .pop-view__main {
+        // 修改暱稱
+        .rename__main {
+          .rename__head {
+            filter: invert(43%) sepia(1%) saturate(1888%) hue-rotate(6deg) brightness(98%) contrast(78%);
+          }
+          .rename__context {
+            input {
+              background-color: #ecedf4;
+              color: #707070;
+              border-color: #b3b5f9;
+              &::placeholder {
+                color: #7c7ed7;
+              }
+            }
+            button {
+              background-image: linear-gradient(-10deg, #b636ff, #362bd2);
+            }
+          }
+          .rename__footer {
+            color: #9d9d9d;
+            border-color: #9d9d9d;
+          }
+        }
+
+        // 分享連結
+        .share__main {
+          > img,
+          .share-button__list .share-button__item:first-child img {
+            filter: invert(43%) sepia(1%) saturate(1888%) hue-rotate(6deg) brightness(98%) contrast(78%);
+          }
+          .share__title,
+          .share__overflow {
+            color: #707070;
+          }
+        }
+
+        // 贈禮畫面
+        .gift__main {
+          .verify__fake {
+            background-color: #efefef;
+            color: #7c7ed7;
+            border-color: #7c7ed7;
+          }
+          .validate__title,
+          .forget-gift__title,
+          .pick-coin__title,
+          .gift-success__label {
+            color: #707070;
+          }
+          .pick-coin__wrap {
+            .pick-coin__item {
+              &:hover .group-hover\:bg-\[\#39343E\],
+              .bg-\[\#39343E\] {
+                background-color: #efefef;
+              }
+              .text-white {
+                color: #7c7ed7;
+              }
+              img.absolute {
+                filter: invert(61%) sepia(77%) saturate(2722%) hue-rotate(208deg) brightness(89%) contrast(89%);
+              }
+            }
+          }
+          .gift-packing__wrap {
+            .gift-packing__coin {
+              > img.absolute {
+                filter: invert(61%) sepia(77%) saturate(2722%) hue-rotate(208deg) brightness(89%) contrast(89%);
+              }
+              > img.mx-5.w-12 {
+                opacity: 0.4;
+              }
+            }
+            .packing__input {
+              .packing__number {
+                background-color: #efefef;
+                color: #7c7ed7;
+                border-color: #7c7ed7;
+
+                .minus,
+                .plus {
+                  filter: invert(61%) sepia(77%) saturate(2722%) hue-rotate(208deg) brightness(89%) contrast(89%);
+                }
+              }
+              .gift-packing__quick-list {
+                .gift-packing__quick-item {
+                  border: 0;
+                  &.gold {
+                    background-color: #fad504;
+                    color: black;
+                  }
+                  &.silver {
+                    background-color: #7c7ed7;
+                    color: white;
+                  }
+                  &.bg-purpleLine {
+                    background-color: #f2f2f4;
+                    color: #a8a8c4;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // 禮包兌換成功的提示
+  .pop-view__teleport .serial__tips {
+    background-color: white;
+    .serial__title,
+    .serial__container .serial__item {
+      color: #707070;
+    }
+  }
+
+  // el-select 下拉選單
+  .el-select__popper.el-popper.select__box {
+    background-color: white !important;
+    .el-select-dropdown__list {
+      .el-select-dropdown__item {
+        color: #7c7ed7;
+        &.selected,
+        &:hover {
+          color: white;
+          background: #7c7ed7 !important;
+        }
+        &:first-child,
+        &:first-child:hover {
+          background: white !important;
+          color: #707070;
+        }
+      }
+    }
+  }
+}
+
+.container-main,
+.container-mo-main {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+}
+
+@media (min-width: 576px) {
+  .container-main,
+  .container-mo-main {
+    max-width: calc(100% - 40px);
+  }
+}
+
+@media (min-width: 768px) {
+  .container-main {
+    max-width: calc(100% - 60px);
+  }
+  .container-mo-main {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-main {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-main {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container-main {
+    max-width: 1320px;
+  }
+}

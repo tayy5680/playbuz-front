@@ -1,0 +1,127 @@
+import i18n from '@/configs/locales'
+const { global: { t } } = i18n
+
+export const ELEMENT_PLUS_LOCALE = (lang) => {
+  i18n.global.locale = lang
+  return {
+    name: 'lang',
+    el: {
+      colorpicker: {
+        confirm: t('確認'),
+        clear: t('清空'),
+      },
+      datepicker: {
+        now: t('現在'),
+        today: t('今天'),
+        cancel: t('取消'),
+        clear: t('清空'),
+        confirm: t('確認'),
+        selectDate: t('選擇日期'),
+        selectTime: t('選擇時間'),
+        startDate: t('開始日期'),
+        startTime: t('開始時間'),
+        endDate: t('結束日期'),
+        endTime: t('結束時間'),
+        prevYear: t('前一年'),
+        nextYear: t('後一年'),
+        prevMonth: t('上個月'),
+        nextMonth: t('下個月'),
+        year: t('年'),
+        month1: t('1 月'),
+        month2: t('2 月'),
+        month3: t('3 月'),
+        month4: t('4 月'),
+        month5: t('5 月'),
+        month6: t('6 月'),
+        month7: t('7 月'),
+        month8: t('8 月'),
+        month9: t('9 月'),
+        month10: t('10 月'),
+        month11: t('11 月'),
+        month12: t('12 月'),
+        weeks: {
+          sun: t('日'),
+          mon: t('一'),
+          tue: t('二'),
+          wed: t('三'),
+          thu: t('四'),
+          fri: t('五'),
+          sat: t('六'),
+        },
+        months: {
+          jan: t('一月'),
+          feb: t('二月'),
+          mar: t('三月'),
+          apr: t('四月'),
+          may: t('五月'),
+          jun: t('六月'),
+          jul: t('七月'),
+          aug: t('八月'),
+          sep: t('九月'),
+          oct: t('十月'),
+          nov: t('十一月'),
+          dec: t('十二月'),
+        },
+      },
+      select: {
+        loading: t('加載中'),
+        noMatch: t('無匹配資料'),
+        noData: t('無資料'),
+        placeholder: t('請選擇'),
+      },
+      cascader: {
+        noMatch: t('無匹配資料'),
+        loading: t('加載中'),
+        placeholder: t('請選擇'),
+        noData: t('無資料'),
+      },
+      pagination: {
+        goto: t('前往'),
+        pagesize: t('項/頁'),
+        total: t('共 {total} 項'),
+        pageClassifier: t('頁'),
+        deprecationWarning: t('頁'),
+      },
+      messagebox: {
+        title: t('提示'),
+        confirm: t('確定'),
+        cancel: t('取消'),
+        error: t('輸入的資料不符規定!'),
+      },
+      upload: {
+        deleteTip: t('按 delete 鍵可刪除'),
+        delete: t('刪除'),
+        preview: t('查看圖片'),
+        continue: t('繼續上傳'),
+      },
+      table: {
+        emptyText: t('暫無資料'),
+        confirmFilter: t('篩選'),
+        resetFilter: t('重置'),
+        clearFilter: t('全部'),
+        sumText: t('總計'),
+      },
+      tree: {
+        emptyText: t('暫無資料'),
+      },
+      transfer: {
+        noMatch: t('無匹配資料'),
+        noData: t('無資料'),
+        titles: [`${t('列表')} 1`, `${t('列表')} 2`],
+        filterPlaceholder: t('輸入關鍵字'),
+        noCheckedFormat: t('總共 {total} 項'),
+        hasCheckedFormat: `{checked}/{total} ${t('確認')}`,
+      },
+      image: {
+        error: t('載入失敗'),
+      },
+      pageHeader: {
+        title: t('返回'),
+      },
+      popconfirm: {
+        confirmButtonText: t('確認'),
+        cancelButtonText: t('取消'),
+      },
+    },
+  }
+}

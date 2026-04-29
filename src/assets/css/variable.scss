@@ -1,0 +1,37 @@
+$MEDIA_PC: 1025px;
+$MEDIA_PAD: 768px;
+$MEDIA_MOBILE: 360px;
+$BaseColor: #3e3a39;
+$SubColor: #b5b2a4;
+$AccentColor: #8836d8;
+
+@mixin pc {
+  @media screen and (min-width: $MEDIA_PC) {
+
+    @content;
+  }
+}
+
+@mixin pad {
+  @media screen and (min-width: $MEDIA_PAD) and (max-width: $MEDIA_PC) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (min-width: $MEDIA_MOBILE) and (max-width: $MEDIA_PAD) {
+    @content;
+  }
+}
+
+@mixin md-up {
+  @media screen and (min-width: $MEDIA_PAD) {
+    @content;
+  }
+}
+
+@mixin md-down {
+  @media screen and (max-width: $MEDIA_PC) {
+    @content;
+  }
+}

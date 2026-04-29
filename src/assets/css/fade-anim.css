@@ -1,0 +1,35 @@
+/* 起始狀態 */
+.fade-start {
+  opacity: 0;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+/* 方向：由下往上 */
+.fade-up-start {
+  transform: translateY(120px);
+}
+/* 方向：由上往下 */
+.fade-down-start {
+  transform: translateY(-20px);
+}
+/* 方向：由左往右 */
+.fade-right-start {
+  transform: translateX(-120px);
+}
+/* 方向：由右往左 */
+.fade-left-start {
+  transform: translateX(120px);
+}
+/* 單純透明淡入，速度 1.2 秒 */
+.fade-opacity-start {
+  transform: translate(0, 0);
+  transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+/* 純透明淡入起始（只透明，不位移） */
+.fade-opacity-start {
+  transform: translate(0, 0); /* 保持原位 */
+}
+/* 最終狀態 */
+.fade-in {
+  opacity: 1;
+  transform: translate(0, 0);
+}
