@@ -1,0 +1,99 @@
+<template>
+  <teleport to="body">
+    <transition name="fade">
+      <div
+        :class="tw([
+          'fixed',
+          'top-1/2',
+          'left-1/2',
+          '-translate-x-1/2',
+          '-translate-y-1/2',
+          'bg-navBgHover',
+          'px-[40px]',
+          'py-[20px]',
+          'rounded-20px',
+          'z-30',
+          'text-white',
+          'flex',
+          'flex-col',
+          'w-[420px]',
+        ])"
+      >
+        <div
+          :class="tw([
+            'flex',
+            'flex-col',
+            'text-[16px]',
+          ])"
+        >
+          <div
+            :class="tw([
+              'text-[#919191]',
+              'mb-[8px]',
+            ])"
+          >
+            贈送給
+          </div>
+          <div
+            :class="tw([
+              'break-words',
+            ])"
+          >
+            玩家名稱AAA玩家名稱AAA玩家名稱AAA玩家名稱AAA玩家名稱AAA玩家名稱AAA
+          </div>
+        </div>
+        <div
+          :class="tw([
+            'border-white',
+            'border-[1px]',
+            'border-dashed',
+            'opacity-10',
+            'w-full',
+            'my-[12px]',
+          ])"
+        >
+        </div>
+        <div
+          :class="tw([
+            'text-[16px]',
+          ])"
+        >
+          留言內容
+        </div>
+        <div
+          :class="tw([
+            'mt-[20px]',
+            'w-full',
+            'flex',
+            'justify-center',
+          ])"
+        >
+          <buttonView
+            v-audio="'clickMinePet'"
+            @click="$emit('close')"
+            :class="tw([
+              'text-[18px]',
+              'py-[8px]',
+              'px-[122px]',
+            ])"
+          >
+            {{ $t('確定') }}
+          </buttonView>
+        </div>
+      </div>
+    </transition>
+  </teleport>
+</template>
+<script>
+import buttonView from '@/components/ui/button-view'
+export default {
+  components: {
+    buttonView,
+  },
+  emit: ['close'],
+  setup () {
+    return {
+    }
+  },
+}
+</script>
