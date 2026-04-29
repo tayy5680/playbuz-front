@@ -1,0 +1,26 @@
+<template>
+  <div
+    class="dot__wrap"
+    :class="tw([
+      'relative',
+      'w-[8px]',
+      'h-[8px]',
+      'rounded-full',
+      'bg-chatroomUnreadBg',
+    ])"
+  >
+    <div
+      class="dot__content"
+      :class="tw([
+        'animate-ping',
+        'absolute',
+        'w-[8px]',
+        'h-[8px]',
+        'rounded-full',
+        'bg-chatroomUnreadBg',
+      ])"
+    ></div>
+  </div>
+</template>
+
+<script></script>

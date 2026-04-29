@@ -1,0 +1,123 @@
+$theme-color-light: #cd9cff;
+$theme-color-dark: #66349a;
+$theme-bg: #141414;
+
+.el-select__popper.el-popper {
+  transform: translateY(-12px);
+  text-align: center;
+
+  &.select__box {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    background: $theme-bg !important;
+    border: none !important;
+  }
+
+  .el-select-dropdown__wrap {
+    max-width: 100%;
+
+    .selector__before {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: visible;
+      cursor: default;
+      color: #877b94;
+      background: $theme-bg !important;
+    }
+  }
+
+  .el-popper__arrow {
+    display: none;
+  }
+
+  .selector__button {
+    color: $theme-color-light;
+  }
+
+  .selector__button.hover,
+  .selector__button:hover,
+  .selected.selector__button {
+    color: #fff;
+    background: $theme-color-dark;
+  }
+
+  @media all and (min-width: 768px) {
+    .el-select-dropdown__wrap {
+      .selector__before {
+        font-size: .75rem;
+        line-height: 1rem;
+      }
+    }
+  }
+}
+
+.date__range__box {
+  background: $theme-bg !important;
+
+  .el-picker-panel {
+    color: #fff;
+    background: $theme-bg !important;
+  }
+
+  .el-popper__arrow {
+    display: none;
+  }
+
+  .el-month-table td.disabled .cell,
+  .el-year-table td.disabled .cell {
+    color: #877b94;
+    background: unset;
+
+    &:hover {
+      color: #877b94;
+    }
+  }
+
+  .el-year-table td.current:not(.disabled) .cell,
+  .el-date-picker__header-label,
+  .el-month-table td.today .cell,
+  .el-month-table td .cell,
+  .el-month-table td.current:not(.disabled) .cell {
+    color: $theme-color-light;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .el-date-table tr:first-child th {
+    font-weight: 400;
+    color: $theme-color-light;
+  }
+
+  .el-date-table td.today span {
+    color: $theme-color-light;
+  }
+
+  .el-date-table td.in-range div {
+    color: #fff;
+    background: $theme-color-dark;
+  }
+
+  .el-date-table td.in-range.available div:hover {
+    background: $theme-color-dark;
+  }
+
+  .el-date-table td.available:hover span,
+  .el-date-table td.current:not(.disabled) span {
+    color: $theme-color-dark;
+    background: $theme-color-light;
+  }
+
+  .el-picker-panel__icon-btn {
+    font-size: 16px;
+    color: $theme-color-light;
+  }
+
+  .el-date-table td.disabled div {
+    color: #767676;
+    background: #242424;
+    cursor: not-allowed;
+  }
+}
