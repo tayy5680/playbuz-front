@@ -1,0 +1,9 @@
+<svg id="btn_imgarrow" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="矩形_3598" data-name="矩形 3598" fill="rgba(1,1,1,0.4)" stroke="#fff" stroke-width="1">
+    <rect width="60" height="60" rx="10" stroke="none"/>
+    <rect x="0.5" y="0.5" width="59" height="59" rx="9.5" fill="none"/>
+  </g>
+  <g id="btn_arrow_line_right" transform="translate(24 18)">
+    <path id="arr" d="M.574,0A.562.562,0,0,1,.981.177l10.851,11.4a.627.627,0,0,1,0,.854L.981,23.823a.555.555,0,0,1-.813,0,.625.625,0,0,1,0-.853L10.613,12,.168,1.03a.625.625,0,0,1,0-.853A.559.559,0,0,1,.574,0Z" fill="#fff"/>
+  </g>
+</svg>

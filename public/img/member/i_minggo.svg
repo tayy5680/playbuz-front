@@ -1,0 +1,7 @@
+<svg id="i_minggo" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <rect id="bg28x28" width="28" height="28" fill="#fff" opacity="0"/>
+  <g id="i_mingchick" transform="translate(1 1)">
+    <path id="re02" d="M22.744,9.854H19.668v-6.6A3.26,3.26,0,0,0,16.411,0H6.65A3.26,3.26,0,0,0,3.393,3.256V6.919H0v3.509H3.393V20.622A3.261,3.261,0,0,0,6.65,23.879h3.68V26.76h6.964V23.879h5.45A3.261,3.261,0,0,0,26,20.622V13.11a3.26,3.26,0,0,0-3.257-3.256m2,10.768a2,2,0,0,1-2,2H6.65a2.005,2.005,0,0,1-2-2V3.256a2,2,0,0,1,2-2h9.761a2,2,0,0,1,2,2v7.851h4.331a2,2,0,0,1,2,2Z" fill="#fff"/>
+    <rect id="re01" width="3.07" height="3.07" transform="translate(7.932 4.782)" fill="#fff"/>
+  </g>
+</svg>
